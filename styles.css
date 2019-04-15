@@ -127,7 +127,7 @@ a {
     padding: 5px;
     width: 550px;
     height: 300px;
-    padding-bottom: 13em;
+    /* padding-bottom: 13em; */
   }
 
 .flex-container-about .title-about {
@@ -149,9 +149,10 @@ a {
 /* FOOTER */
 
 .box {
-    height: 300px;
-    width: 100%;
+    /* height: 300px; */
+    /* width: 100%; */
     background-color: rgb(34, 34, 34);
+    padding: 2em;
 }
 
 .flex-container-footer {
@@ -241,3 +242,14 @@ a {
     color: black;
 }
 
+/* MEDIA QUERIES */
+
+@media only screen 
+    and (width : 375px) 
+    and (height : 635px)
+    and (orientation : portrait)  
+    and (-webkit-device-pixel-ratio : 3) {
+        .box {
+            margin-top: 100px;
+        }
+     }
